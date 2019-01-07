@@ -1,0 +1,47 @@
+body{font-family: Arial,Helvetica,sans-serif;}
+
+h1{
+	background-color:green;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing:0;
+  border-radius:25px;
+}
+
+ul li ul li{
+       font-weight:bold;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid grey;
+}
+
+th{
+  background-color:grey;
+  color:white;
+}
+
+th:first-child{
+  border-radius: 10px 0 0 0;
+}
+
+#greenapple /* # for ID*/
+{
+	color:green;
+}
+
+.green { /*. for class*/
+	color:green;
+}
+
+.underline
+{
+	text-decoration: underline;
+}
+
