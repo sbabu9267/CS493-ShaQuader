@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Bootstrap Exercise</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        
+   <style>
+            input#newtask {
+                margin: 1.5rem;
+                height: 1.8rem;
+            }
+            li > input[type="checkbox"] {
+            }
+            li > label {
+                line-height: 40px;
+                width: 70%;
+            }
+    </style>
+    </head>
+    <body>
+        <nav>
+            <div>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a  class="nav-link" href="#">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="#">Menu One</a>
+                    </li>     
+                    <li class="nav-item">
+                        <a  class="nav-link" href="#">Menu Two</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link" href="#">Menu Three</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav> 
+        <header>
+            <div id="alertbox"></div>
+            <div class="jumbotron text-center">
+                <h1 id="top">CS493</h1>
+                <p id="leadtext" class="lead" >Advanced Topics in Computing/Information Systems Management (Introduction to Front-End Web Development)</p>       
+                <hr >
+                <p >CS493 teaches students how to develop modern web pages using HTML and CSS. JavaScript and React.js will also be introduced.
+
+                </p>   
+                <button type="button" class="btn btn-outline-success" onclick="showText();">Show Text</button>
+                <button type="button" class="btn btn-outline-primary" onclick="addNewMenu();">Add Menu</button>
+                <button type="button" class="btn btn-outline-secondary" onclick="removeMenu();">Remove Menu</button>   
+                <button type="button" class="btn btn-outline-info" onclick="changeImage();">Change Image</button>
+                <button type="button" class="btn btn-outline-info" onclick="showAlert('Alert Message Here!!!');">Show Alert</button>
+
+            </div>
+        </header>
+
+        <div class="container">
+        <div class="row"> 
+            <div class="col-2">
+                <aside>
+                        <div>
+                                <ul class="list-group">
+                                        <li class="list-group-item">HTML</li>
+                                        <li class="list-group-item">CSS</li>
+                                        <li class="list-group-item">JavaScript</li>
+                                        <li class="list-group-item">Bootstrap</li>
+                                </ul>
+                        </div>
+                </aside>
+            </div>
+            
+            <div class="col-10">
+            <section>
+    
+
+
+                
+            <hr >
+            
+            <h2>My To do list</h2>
+
+            <hr >
+            <img class="float-right" src="image/YorkLogo-1.png" style="width:100px;">
+            <div class="container">
+                        <label>Add Item</label>
+                        <input id="new-task" type="text">
+                        <button id="btn-new-task" class="btn btn-outline-info">Add</button>
+                          </p>
+                          
+                          <h3>To do</h3>
+                          <hr>
+                          <ul id="todo-tasks">
+                              <li>
+                                <input type="checkbox">
+                                <label>Pay Bills</label>
+                                <button class="delete">X</button>
+                              </li>
+                            
+                          </ul>
+                                  
+            </div>
+
+
+
+            </section>
+
+            <footer class="page-footer bg-light">
+                    <div class="footer-copyright text-center">&copy; by CS493 course</div>
+            </footer>
+            </div>
+        </div>
+    </div>
+        <script src="EX9js.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Bootstrap Exercise</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+        <script>
+            function changeText(){
+                
+            }
+        </script>
+
+
+
+    </head>
+    <body>
+        <nav>
+            <div>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a  class="nav-link" href="#">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="#">Menu One</a>
+                    </li>     
+                    <li class="nav-item">
+                        <a  class="nav-link" href="#">Menu Two</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link" href="#">Menu Three</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav> 
+        <header>
+            <div id="alertbox"></div>
+            <div class="jumbotron text-center">
+                <h1 id="top">CS493</h1>
+                <p id="leadtext" class="lead" >Advanced Topics in Computing/Information Systems Management (Introduction to Front-End Web Development)</p>       
+                <hr >
+                <p >CS493 teaches students how to develop modern web pages using HTML and CSS. JavaScript and React.js will also be introduced.
+
+                </p>   
+                <button type="button" class="btn btn-outline-success" onclick="showText()" >Show Text</button>
+                <button type="button" class="btn btn-outline-primary" >Add Menu</button>
+                <button type="button" class="btn btn-outline-secondary" >Remove Menu</button>   
+                <button type="button" class="btn btn-outline-info" >Change Image</button>
+            </div>
+        </header>
+
+        <div class="container">
+        <div class="row"> 
+            <div class="col-2">
+                <aside>
+                        <div>
+                                <ul class="list-group">
+                                        <li class="list-group-item">HTML</li>
+                                        <li class="list-group-item">CSS</li>
+                                        <li class="list-group-item">JavaScript</li>
+                                        <li class="list-group-item">Bootstrap</li>
+                                </ul>
+                        </div>
+                </aside>
+            </div>
+            
+            <div class="col-10">
+            <section>
+    
+
+
+                
+            <hr >
+            
+            <h2>Topics</h2>
+
+            <hr >
+            <img class="float-right" src="image/YorkLogo-1.png" style="width:100px;">
+            <div class="container">
+                <div class="row">
+                    <div title="Vision" class="col-sm-6  text-capitalize" >
+                        <p>Paragraph1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elementum sapien ac dui lacinia efficitur. 
+                        Cras sodales a quam quis imperdiet. Ut dignissim nisl molestie, dapibus nibh sit amet, euismod mi. Curabitur pulvinar est velit. 
+                        Mauris quis lacus lectus. Integer consectetur nunc at justo malesuada gravida. 
+                        Aenean vel cursus lorem. Morbi sit amet blandit purus, vel consectetur nunc. 
+                        Phasellus ut felis ac massa gravida cursus sit amet at dolor. In nec rhoncus enim.</p>  
+                    </div>
+
+                    <div class=" col-sm-6">
+                        <p>Paragraph2 - Nam accumsan libero at diam egestas, quis semper nulla condimentum. 
+                            Morbi vitae dui ut metus tincidunt gravida consectetur at ligula. Duis ornare, metus non porta pharetra, 
+                            purus ipsum tincidunt neque, id pharetra lorem nunc vel metus. Nulla aliquam ullamcorper nunc at aliquam. 
+                            Suspendisse pulvinar euismod sem eu posuere. Sed feugiat turpis sed libero volutpat, et ornare ipsum condimentum. </p>
+                    </div>
+        
+                </div>           
+            </div>
+            <hr>
+
+            <div class="container">
+                    <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">HTML Elements</th>
+                                    <th>Example</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>HTML Links</td>
+                                    <td>Links allow users to click their way from page to page.</td>
+                                    <td><span style="color:blue">&lt;a&nbsp;<span style="color:red;">href</span>="url"&gt;link&nbsp;text&lt;/a&gt;</span></td>
+                                </tr>
+                                <tr>
+                                    <td>HTML Images</td>
+                                    <td>Images can improve the design and the appearance of a web page.</td>
+                                    <td><span style="color:blue">&lt;img <span style="color:red;">src</span>="url"&gt;</span></td>
+                                </tr>   
+                                <tr>
+                                    <td>HTML Comments</td>
+                                    <td>Comment tags are used to insert comments in the HTML source code.</td>
+                                    <td><span style="color:green;">&lt;!-- Write your comments here --&gt;</span</td>
+                                </tr> 
+                            </tbody>                    
+                        </table>           
+
+
+            </div>
+
+            <hr>
+            <h2>This is my favorite meta tag</h2>
+            <div class="card bg-light text-center pt-4 mb-5" style="height: 10rem;">
+                <div class="tagelement card-body">
+                        <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /></code>
+                </div>           
+            </div>
+            </section>
+
+            <footer class="page-footer bg-light">
+                    <div class="footer-copyright text-center">&copy; by CS493 course</div>
+            </footer>
+            </div>
+        </div>
+    </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script>
+                var ulist = document.querySelector("ul.nav")
+                console.log(ulist);
+                // alert(document.title);
+        </script>
+        <script src="Ex8.js"></script>
+    </body>
+</html>
